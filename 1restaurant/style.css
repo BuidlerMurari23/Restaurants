@@ -1,0 +1,126 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: url('https://d3nn873nee648n.cloudfront.net/900x600/19037/9-SM890141.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    margin: 30px 100px;
+}
+
+.image {
+    height: 80px;
+    width: 100px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(243, 235, 17);
+}
+
+.order {
+    background: #f30808;
+    color: aliceblue;
+    height: 30px;
+    width: 80px;
+    border: 2px solid #f30808;
+}
+
+.order:hover {
+    cursor: pointer;
+    color: #fff;
+    animation: 4s yahoo infinite;
+}
+
+@keyframes yahoo {
+    0%{
+        background: red;
+    }
+    10%{
+        background: rgb(66, 164, 41);
+    }
+    20%{
+        background: rgb(226, 183, 73);
+    }
+    30%{
+        background: rgb(33, 42, 231);
+    }
+    40%{
+        background: rgb(229, 41, 182);
+    }
+    50%{
+        background: rgb(66, 164, 41);
+    }
+    60%{
+        background: rgb(226, 183, 73);
+    }
+    70%{
+        background: rgb(33, 42, 231);
+    }
+    80%{
+        background: rgb(229, 41, 182);
+    }
+    90%{
+        background: rgb(229, 41, 182);
+    }
+    95%{
+        background: rgb(66, 164, 41);
+    }
+    100%{
+        background: none;
+    }
+}
+
+/* }
+@keyframs yellow{
+    {
+        from{red}
+        to{yellow}
+    }
+} */
+
+div.main {
+    font-size: 100px;
+    text-align: center;
+    color: rgb(243, 235, 17);
+    /* padding: 100px;
+    margin: 50px; */
+
+
+
+}
+
+/* div button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+center button.read {
+    background: #f30808;
+    color: aliceblue;
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+    padding: 15px 30px;
+
+}
+
+center button.read:hover {
+    color: #f30808;
+    animation: 4s yahoo infinite;
+}
